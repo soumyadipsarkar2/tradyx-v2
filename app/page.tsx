@@ -1464,9 +1464,9 @@ export default function TradyXLanding() {
                 <Image
                   src="/images/logo.png"
                   alt="TRADY X"
-                  width={60}
-                  height={60}
-                  className="w-12 h-12 lg:w-15 lg:h-15"
+                  width={100}
+                  height={80}
+                  className="w-25 h-25 lg:w-15 lg:h-15"
                 />
               </div>
               <p className="text-gray-400 text-center text-sm lg:text-base">
