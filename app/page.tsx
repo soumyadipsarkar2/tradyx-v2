@@ -970,17 +970,16 @@ export default function TradyXLanding() {
             <h3 className="text-xl lg:text-2xl font-bold text-center mb-6 lg:mb-8 text-gray-800">
               Level Profit Bonus Structure
             </h3>
-            <div className="grid grid-cols-2 sm:grid-cols-5 lg:grid-cols-10 gap-3 lg:gap-4">
+            <div className="grid grid-cols-3 sm:grid-cols-3 lg:grid-cols-9 gap-3 lg:gap-4 max-w-4xl mx-auto">
               {[
-                { level: 1, percentage: 20 },
-                { level: 2, percentage: 10 },
+                { level: 2, percentage: 20 },
                 { level: 3, percentage: 10 },
-                { level: 4, percentage: 5 },
+                { level: 4, percentage: 10 },
                 { level: 5, percentage: 5 },
-                { level: 6, percentage: 3 },
+                { level: 6, percentage: 5 },
                 { level: 7, percentage: 3 },
-                { level: 8, percentage: 2 },
-                { level: 9, percentage: 1 },
+                { level: 8, percentage: 3 },
+                { level: 9, percentage: 2 },
                 { level: 10, percentage: 1 },
               ].map((level, index) => (
                 <motion.div
